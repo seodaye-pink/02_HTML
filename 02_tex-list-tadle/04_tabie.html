@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       table {
+           border-collapse: collapse;
+       }
+       th,
+       td {
+           border: 1px solid #94a3b8;
+           padding: 6px 16px;
+           text-align: center;
+       }
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+           <tr>
+               <th>이름</th>
+               <th>나이</th>
+               <th>전화번호</th>
+           </tr>
+    </thead>
+    <tbody>
+          <tr>
+              <td>홍길동</td>
+              <td>20</td>
+              <td>010-1234-5678</td>
+          </tr>
+          <tr>
+              <td>김철수</td>
+              <td>25</td>
+              <td>010-9876-5432</td>
+          </tr>
+    </tbody>
+</table>
+
+<h2>colspan : 열병합 (옆으로 합치기)</h2>
+<table>
+    <tr>
+        <td colspan="2">열 병합</td>
+        <td>애는따로</td>
+    </tr>
+    <tr>
+        <td>내용2</td>
+        <td>내용3</td>
+        <td>내용4</td>
+    </tr>
+</table>
+
+<h2>rowspan : 행병합 (아래로 합치기)</h2>
+<table>
+    <tbody>
+        <tr>
+            <td>내용1</td>
+            <td>내용2</td>
+            <td>내용3</td>
+    </tbody>
+</table>
+
+</body>
+</html>
